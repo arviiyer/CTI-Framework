@@ -4,7 +4,7 @@
 
 ## Objective
 
-This project aims to build a robust Cyber Threat Intelligence Framework by leveraging industry-standard tools such as MISP for threat intelligence sharing, Splunk for real-time threat analysis, and TheHive for incident response. The objective is to ingest open-source threat feeds into MISP, integrate these feeds into Splunk to enable dynamic threat analysis, and automate alerting in TheHive to enhance the organization's ability to rapidly respond to cyber threats. Additionally, the framework will utilize the MITRE ATT&CK navigator to map detected threats to adversary Tactics, Techniques, and Procedures (TTPs), thereby enhancing the understanding and mitigation of potential security breaches.
+This project aims to build a robust Cyber Threat Intelligence Framework by leveraging industry-standard tools such as MISP for threat intelligence sharing, Wazuh for real-time threat analysis, and TheHive for incident response. The objective is to ingest open-source threat feeds into MISP, integrate these feeds into Wazuh to enable dynamic threat analysis, and automate alerting in TheHive to enhance the organization's ability to rapidly respond to cyber threats. Additionally, the framework will utilize the MITRE ATT&CK navigator to map detected threats to adversary Tactics, Techniques, and Procedures (TTPs), thereby enhancing the understanding and mitigation of potential security breaches.
 
 ## Proposed Solution Architecture
 ![Capstone_Flow2 drawio](https://github.com/arviiyer/CTI-Framework/assets/26136879/15c512a5-237d-419b-931f-4223ff843cfd)
@@ -17,12 +17,12 @@ This project aims to build a robust Cyber Threat Intelligence Framework by lever
 - Open-source threat feeds will be ingested into MISP for the collection of Indicators of Compromise (IoCs).
   `# Screenshot placeholder for MISP threat feed ingestion`
 
-### Integrating MISP with Splunk for Threat Monitoring
-- MISP’s IoCs will be integrated into Splunk to enable real-time monitoring and dynamic threat analysis.
-  `# Screenshot placeholder for MISP and Splunk integration`
+### Integrating MISP with Wazuh for Threat Monitoring
+- MISP’s IoCs will be integrated into Wazuh to enable real-time monitoring and dynamic threat analysis.
+  `# Screenshot placeholder for MISP and Wazuh integration`
 
 ### Automating Alerts in TheHive
-- Splunk will be configured to trigger automated alerts in TheHive for rapid incident response based on identified cyber threats.
+- Wazuh will be configured to trigger automated alerts in TheHive for rapid incident response based on identified cyber threats.
   `# Screenshot placeholder for automated alert configuration in TheHive`
 
 ### Mapping Threat Findings with MITRE ATT&CK
@@ -33,7 +33,7 @@ This project aims to build a robust Cyber Threat Intelligence Framework by lever
 
 - [x] Plan and design the CTI Framework.
 - [ ] Open-source threat feeds ingested into MISP.
-- [ ] Real-time threat monitoring enabled in Splunk.
+- [ ] Real-time threat monitoring enabled in Wazuh.
 - [ ] Automated alerts in TheHive configured.
 - [ ] MITRE ATT&CK navigator used for mapping TTPs.
 
